@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+.container{
+    text-align: center;
+}
+p{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+button{
+    height: 3em;
+    width: 10em;
+    border-radius:0.5em;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: black;
+    cursor: pointer;
+}
